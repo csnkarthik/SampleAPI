@@ -11,7 +11,7 @@ pipeline {
         stage('deploy to minikube'){
             steps { 
                 echo '''
-                    hello branch build
+                    hello branch build dev3
                 '''
             }
         }
